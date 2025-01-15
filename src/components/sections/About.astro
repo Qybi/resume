@@ -1,0 +1,14 @@
+---
+import Section from "../Section.astro";
+
+import CV from "@cv";
+import Hobbies from "./Hobbies.astro";
+const { summary } = CV.basics;
+---
+
+<Section title="About" gap="2">
+  <p class="font-mono opacity-75 print:font-sans">
+    {summary}
+  </p>
+  <Hobbies />
+</Section>

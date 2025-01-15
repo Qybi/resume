@@ -1,0 +1,376 @@
+{
+  "analyticsCode": "",
+  "pageLayout": "two-column",
+  "basics": {
+    "name": "Raffaele Trivillin",
+    "label": "Full Stack Developer",
+    "image": "/avatar.png",
+    "email": "qybi.dev@gmail.com",
+    "url": "https://www.qybi.dev",
+    "dob": "26/01/1998",
+    "summary": "Description of myself // Add hobbies/interests section",
+    "hobbies": [
+      {
+        "name": "docker",
+        "icon": "mdi:docker"
+      },
+      {
+        "name": "docker",
+        "icon": "mdi:docker"
+      }
+    ],
+    "theme": "purple",
+    "location": {
+      "address": "",
+      "city": "Latisana",
+      "countryCode": "IT",
+      "region": "Italy"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "icon": "mdi:github",
+        "username": "Qybi",
+        "url": "https://github.com/Qybi"
+      },
+      {
+        "network": "LinkedIn",
+        "icon": "mdi:linkedin",
+        "username": "raffaele-trivillin",
+        "url": "https://www.linkedin.com/in/raffaele-trivillin/"
+      }
+    ]
+  },
+  "images": {
+    "intro": "",
+    "list": [
+      {
+        "image": "https://i0.hdslb.com/bfs/article/6720a7355fd11b9666e2716cadf04e45480025691.jpg@90q_1e_1c.webp",
+        "alt": "Sunset in Nanchang",
+        "desc": "Shot on a sunny day in Nanchang. 2024.10.05"
+      },
+      {
+        "image": "https://preview.redd.it/the-virgin-goku-vs-the-chad-sun-wukong-v0-ie9v68i68crc1.png?width=788&format=png&auto=webp&s=69702b8de490c538443a97ed84196b3de43f6ba2",
+        "alt": "EHm Akshually",
+        "desc": "EHm Akshually"
+      },
+      {
+        "image": "https://i1.sndcdn.com/artworks-d0RbKpbNcrAlMAnn-tcTSCw-t500x500.jpg",
+        "alt": "yep",
+        "desc": "yep"
+      },
+      {
+        "image": "https://media.tenor.com/Oas_7V6NajEAAAAC/laugh-point.gif",
+        "alt": "Cat lmao",
+        "desc": "Cat lmao"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "ITS Alto Adriatico Foundation",
+      "url": "https://www.itsaltoadriatico.it/",
+      "area": "Cloud Developer ITS Diploma - EQF 6",
+      "studyType": "Full-time student > intern",
+      "startDate": "2023-10-15",
+      "endDate": "2025-07-30"
+    },
+    {
+      "institution": "ISIS A. Malignani",
+      "url": "https://www.malignani.ud.it/",
+      "area": "ICT Diploma - EQF 5",
+      "studyType": "Full-time student",
+      "startDate": "2011-09-15",
+      "endDate": "2016-06-30"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Protezione Dati Personali: GDPR, Privacy e Sicurezza",
+      "date": "2024-02-23",
+      "url": "https://www.linkedin.com/in/raffaele-trivillin/overlay/1736453299602/single-media-viewer?type=DOCUMENT&profileId=ACoAADDhoDkBX8fH3wLGE9isqiZGOVix6lCU6QM&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BIAJLEYhdRKyE3p3g1yUDMg%3D%3D",
+      "issuer": "AICA - Associazione Italiana per l'Informatica e il Calcolo Automatico"
+    }
+  ],
+  "work": [
+    {
+      "name": "Archeido S.r.l.",
+      "position": "Full-stack Developer",
+      "location_type": "Hybrid",
+      "location": "Udine, IT",
+      "url": "https://archeido.com/",
+      "startDate": "2024-07-06",
+      "endDate": null,
+      "summary": "Developing and deploying full stack web and windows desktop applications",
+      "highlights": ["Enhanced internal workflow efficiency by 30%."],
+      "responsibilities": [
+        "Developed and maintained backend services using Node.js and Golang."
+      ],
+      "achievements": [
+        "Implemented a cloud drive and verification code system."
+      ],
+      "skills": {
+        "PHP": "simple-icons:php",
+        "Node": "ri:nodejs-line",
+        "Golang": "simple-icons:go",
+        "Next.js": "ri:nextjs-fill",
+        "React": "mdi:react",
+        "SQL": "simple-icons:mysql",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github",
+        "NestJS": "simple-icons:nestjs",
+        "Vue": "mdi:vuejs"
+      }
+    },
+    {
+      "name": "ISTES ICT Solutions S.r.l.",
+      "position": "Full-stack Developer",
+      "location_type": "Hybrid",
+      "location": "Latisana, IT",
+      "url": "",
+      "startDate": "2019-02-04",
+      "endDate": "2023-10-31",
+      "summary": "Developing and deploying full stack web and windows desktop applications",
+      "highlights": ["Enhanced internal workflow efficiency by 30%."],
+      "responsibilities": [
+        "Developed and maintained backend services using Node.js and Golang."
+      ],
+      "achievements": [
+        "Implemented a cloud drive and verification code system."
+      ],
+      "skills": {
+        "PHP": "simple-icons:php",
+        "Node": "ri:nodejs-line",
+        "Golang": "simple-icons:go",
+        "Next.js": "ri:nextjs-fill",
+        "React": "mdi:react",
+        "SQL": "simple-icons:mysql",
+        "Git": "mdi:git",
+        "GitHub": "mdi:github",
+        "NestJS": "simple-icons:nestjs",
+        "Vue": "mdi:vuejs"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "simple-icons:html5",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "icon": "ri:css3-fill",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript",
+      "level": "Expert",
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "icon": "mdi:tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "icon": "simple-icons:typescript",
+      "level": "Expert",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "icon": "ri:nodejs-line",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+    },
+    {
+      "name": "SQL",
+      "icon": "simple-icons:mysql",
+      "level": "Intermediate",
+      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+    },
+    {
+      "name": "MongoDB",
+      "icon": "simple-icons:mongodb",
+      "level": "Intermediate",
+      "keywords": ["Databases", "File", "Data Storage", "Backend"]
+    },
+    {
+      "name": "Git",
+      "icon": "mdi:git",
+      "level": "Intermediate",
+      "keywords": ["Version Control", "Collaboration", "Source Code"]
+    },
+    {
+      "name": "GitHub",
+      "icon": "mdi:github",
+      "level": "Expert",
+      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+    },
+    {
+      "name": "Next.js",
+      "icon": "ri:nextjs-line",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "icon": "mdi:react",
+      "level": "Expert",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Vue",
+      "icon": "mdi:vuejs",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Docker",
+      "icon": "mdi:docker",
+      "level": "Intermediate",
+      "keywords": ["Virtual Environments", "Backend"]
+    },
+    {
+      "name": "NestJS",
+      "icon": "simple-icons:nestjs",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Backend", "IOC"]
+    },
+    {
+      "name": "Vite",
+      "icon": "simple-icons:vite",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "Build Tool"]
+    },
+    {
+      "name": "WordPress",
+      "icon": "ri:wordpress-fill",
+      "level": "Intermediate",
+      "keywords": ["PHP", "Fullstack", "Frontend"]
+    },
+    {
+      "name": "Golang",
+      "icon": "simple-icons:go",
+      "level": "Beginner",
+      "keywords": ["Backend", "Cloud Service"]
+    },
+    {
+      "name": "Astro",
+      "icon": "simple-icons:astro",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
+    },
+    {
+      "name": "PHP",
+      "icon": "simple-icons:php",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Nginx",
+      "icon": "simple-icons:nginx",
+      "level": "Intermediate",
+      "keywords": ["Web Development", "Backend", "Web Server"]
+    },
+    {
+      "name": "Tauri",
+      "icon": "simple-icons:tauri",
+      "level": "Beginner",
+      "keywords": ["Desktop App", "Rust", "Webview"]
+    },
+    {
+      "name": "Rust",
+      "icon": "simple-icons:rust",
+      "level": "Beginner",
+      "keywords": ["Desktop App", "Webview"]
+    },
+    {
+      "name": "Socket.IO",
+      "icon": "simple-icons:socketdotio",
+      "level": "Beginner",
+      "keywords": ["Realtime", "Websocket"]
+    },
+    {
+      "name": "Electron",
+      "icon": "simple-icons:electron",
+      "level": "Beginner",
+      "keywords": ["Desktop App", "Webview"]
+    },
+    {
+      "name": "Shell",
+      "icon": "simple-icons:shell",
+      "level": "Intermediate",
+      "keywords": ["Scripting", "Automation"]
+    },
+    {
+      "name": "Linux",
+      "icon": "simple-icons:linux",
+      "level": "Intermediate",
+      "keywords": ["OS", "Scripting", "Automation"]
+    },
+    {
+      "name": "Vercel",
+      "icon": "simple-icons:vercel",
+      "level": "Intermediate",
+      "keywords": ["Serverless", "Static Site Hosting"]
+    },
+    {
+      "name": "Netlify",
+      "icon": "simple-icons:netlify",
+      "level": "Intermediate",
+      "keywords": ["Serverless", "Static Site Hosting"]
+    },
+    {
+      "name": "Tencent Cloud",
+      "icon": "simple-icons:tencentqq",
+      "level": "Intermediate",
+      "keywords": ["Cloud Service"]
+    },
+    {
+      "name": "Cloudflare Edge Functions",
+      "icon": "simple-icons:cloudflare",
+      "level": "Expert",
+      "keywords": ["Serverless", "Edge Computing"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced - B2/C1 written and spoken"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": ["AI", "Blockchain"]
+    }
+  ],
+  "projects": []
+}

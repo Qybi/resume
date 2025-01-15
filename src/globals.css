@@ -1,0 +1,51 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    --color-text-base: 0, 0, 0;
+    --color-text-muted: 120, 120, 120;
+    --color-text-inverted: 255, 255, 255;
+    --color-fill: 245, 245, 245;
+    --muted: 200, 200, 200;
+    --color: 249, 115, 22;
+    --color-button-accent: 249, 115, 22;
+    --color-button-accent-hover: 55, 55, 55;
+    --color-button-muted: 244, 239, 238;
+
+    [data-theme="purple"] {
+      --color-text-base: 40, 40, 40;
+      --color-text-muted: 110, 110, 110;
+      --color-text-inverted: 230, 230, 230;
+      --color-fill: 255, 251, 222;
+      --muted: 220, 214, 147;
+      --color: 142, 11, 179;
+      --color-button-accent: 142, 11, 179; 
+      --color-button-accent-hover: 190, 120, 220;
+      --color-button-muted: 223, 173, 235;
+    }
+  }
+
+  .dark {
+    --color-text-base: 255, 255, 255;
+    --color-text-muted: 150, 150, 150;
+    --color-text-inverted: 255, 255, 255;
+    --color-fill: 18, 18, 18;
+    --muted: 36, 36, 36;
+    --color: 227, 77, 10;
+    --color-button-accent: 227, 77, 10;
+    --color-button-accent-hover: 231, 121, 43;
+    --color-button-muted: 26, 26, 26;
+
+    [data-theme="purple"] {
+      --color-text-base: 230, 230, 230;
+      --color-text-muted: 104, 124, 104;
+      --color-text-inverted: 230, 230, 230;
+      --color-fill: 20, 10, 20;
+      --muted: 54, 64, 54;
+      --color: 189, 81, 237;
+      --color-button-accent: 189, 81, 237;
+      --color-button-accent-hover: 202, 120, 220;
+      --color-button-muted: 42, 34, 44;
+    }
+  }
+}
