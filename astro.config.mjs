@@ -15,13 +15,15 @@ export default defineConfig({
         "simple-icons": ["*"],
         devicon: ["*"],
         "vscode-icons": ["*"],
+        maki: ["*"],
+        "emojione-v1": ["*"],
       },
     }),
     playformCompress({
       CSS: false,
       Image: false,
       Action: {
-        Passed: async () => true, // https://github.com/PlayForm/Compress/issues/376
+        Passed: async () => true,
       },
     }),
   ],
