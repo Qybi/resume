@@ -65,13 +65,6 @@ interface Volunteer {
   highlights: Highlight;
 }
 
-interface Skills {
-  icon: string,
-  name: string;
-  level: string;
-  keywords: Array<string>;
-}
-
 interface Awards {
   title: string;
   date: string;
