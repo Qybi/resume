@@ -17,9 +17,21 @@ importers:
       '@fancyapps/ui':
         specifier: ^5.0.36
         version: 5.0.36
+      '@iconify-json/devicon':
+        specifier: ^1.2.11
+        version: 1.2.11
+      '@iconify-json/emojione-v1':
+        specifier: ^1.2.1
+        version: 1.2.1
+      '@iconify-json/maki':
+        specifier: ^1.2.3
+        version: 1.2.3
       '@iconify-json/mdi':
         specifier: ^1.2.0
         version: 1.2.0
+      '@iconify-json/ph':
+        specifier: ^1.2.2
+        version: 1.2.2
       '@iconify-json/ri':
         specifier: ^1.2.0
         version: 1.2.0
@@ -371,8 +383,20 @@ packages:
   '@fancyapps/ui@5.0.36':
     resolution: {integrity: sha512-GMygQzp1MBTFNTT6AzpbL6pXTD6bTxwjmmpI1fe8Ozmmiseu8/g82Sudl1YhcbZmS4bJgaBOF5THDFGpXQ1fDw==}
 
+  '@iconify-json/devicon@1.2.11':
+    resolution: {integrity: sha512-siDWSFqmPKOYiMvgixqsZ/0rbUXae1M7gF14vefBtFuKXJkTvr4WPzbv1ARc7rqQlkU8XZPyH1edCXO4uToTyw==}
+
+  '@iconify-json/emojione-v1@1.2.1':
+    resolution: {integrity: sha512-JHOLhXdoevJQoa81m09Ciau/dDw3Gxzok15YKT39ZoaSqmrd8NUMA/rD+T6dCQM/lKXSYc/hb1pZeyiSEXbJFA==}
+
+  '@iconify-json/maki@1.2.3':
+    resolution: {integrity: sha512-u23VP2DbV7+vxbjkBboz7FBqQM1iK+IYRyMLbfLLUkrCwdyNWbqnoHCNimRXGd99IdEZeNgtiXLvWkc/fPhuUQ==}
+
   '@iconify-json/mdi@1.2.0':
     resolution: {integrity: sha512-E9/3l5Syg3wfuarorFodhn4s8YorxhH3U3U20LaNBNiqw1kFNIDWhF6HymuzAD35k7RH0OBasJ+ZUyFtVVV6eg==}
+
+  '@iconify-json/ph@1.2.2':
+    resolution: {integrity: sha512-PgkEZNtqa8hBGjHXQa4pMwZa93hmfu8FUSjs/nv4oUU6yLsgv+gh9nu28Kqi8Fz9CCVu4hj1MZs9/60J57IzFw==}
 
   '@iconify-json/ri@1.2.0':
     resolution: {integrity: sha512-br8It3uRHylNhEH72aU9VF6gIdL4BAi6JMdcxsCaVbAyWBJ0jd4RxfmsYnil6TmEfP5wxihiCKbtbQmIHZdqKg==}
@@ -3105,7 +3129,23 @@ snapshots:
 
   '@fancyapps/ui@5.0.36': {}
 
+  '@iconify-json/devicon@1.2.11':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/emojione-v1@1.2.1':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/maki@1.2.3':
+    dependencies:
+      '@iconify/types': 2.0.0
+
   '@iconify-json/mdi@1.2.0':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/ph@1.2.2':
     dependencies:
       '@iconify/types': 2.0.0
 
