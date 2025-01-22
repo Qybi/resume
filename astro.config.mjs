@@ -12,11 +12,10 @@ export default defineConfig({
       include: {
         mdi: ["*"],
         ri: ["*"],
-        "simple-icons": ["*"],
         devicon: ["*"],
-        "vscode-icons": ["*"],
-        maki: ["*"],
+        maki: ["library", "racetrack", "car", "gaming"],
         "emojione-v1": ["*"],
+        ph: ["headphones-fill"],
       },
     }),
     playformCompress({
