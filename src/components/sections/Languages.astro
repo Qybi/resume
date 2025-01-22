@@ -1,0 +1,23 @@
+---
+import { Icon } from "astro-icon/components";
+import Section from "../Section.astro";
+
+import CV from "@cv";
+const { languages } = CV;
+---
+
+<Section title="Languages" gap="0">
+  <p class="font-mono opacity-75 print:font-sans">
+    <ul
+      class="inline-flex flex-wrap gap-4 print:mt-4 [&>li>svg]:text-skin-hue"
+    >
+      {
+        languages.map(({ language, flag, fluency }) => (
+          <li class="flex items-center gap-1 rounded-md text-skin-hue print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+            {language && <Icon name={flag} title={language} width={25} height={25} />}{` ${fluency}`}
+          </li>
+        ))
+      }
+    </ul>
+  </p>
+</Section>
