@@ -1,22 +1,33 @@
 {
-  "analyticsCode": "",
   "pageLayout": "two-column",
   "basics": {
     "name": "Raffaele Trivillin",
     "label": "Full Stack Developer",
-    "image": "/avatar.png",
+    "image": "/avatar_test.png",
     "email": "qybi.dev@gmail.com",
     "url": "https://www.qybi.dev",
     "dob": "26/01/1998",
     "summary": "Description of myself // Add hobbies/interests section",
     "hobbies": [
       {
-        "name": "docker",
-        "icon": "mdi:docker"
+        "name": "Reading books and comics",
+        "icon": "maki:library"
       },
       {
-        "name": "docker",
-        "icon": "mdi:docker"
+        "name": "Racing",
+        "icon": "maki:racetrack"
+      },
+      {
+        "name": "Sports cars",
+        "icon": "maki:car"
+      },
+      {
+        "name": "Gaming",
+        "icon": "maki:gaming"
+      },
+      {
+        "name": "Music",
+        "icon": "ph:headphones-fill"
       }
     ],
     "theme": "purple",
@@ -44,11 +55,6 @@
   "images": {
     "intro": "",
     "list": [
-      {
-        "image": "https://i0.hdslb.com/bfs/article/6720a7355fd11b9666e2716cadf04e45480025691.jpg@90q_1e_1c.webp",
-        "alt": "Sunset in Nanchang",
-        "desc": "Shot on a sunny day in Nanchang. 2024.10.05"
-      },
       {
         "image": "https://preview.redd.it/the-virgin-goku-vs-the-chad-sun-wukong-v0-ie9v68i68crc1.png?width=788&format=png&auto=webp&s=69702b8de490c538443a97ed84196b3de43f6ba2",
         "alt": "EHm Akshually",
@@ -109,18 +115,7 @@
       "achievements": [
         "Implemented a cloud drive and verification code system."
       ],
-      "skills": {
-        "PHP": "simple-icons:php",
-        "Node": "ri:nodejs-line",
-        "Golang": "simple-icons:go",
-        "Next.js": "ri:nextjs-fill",
-        "React": "mdi:react",
-        "SQL": "simple-icons:mysql",
-        "Git": "mdi:git",
-        "GitHub": "mdi:github",
-        "NestJS": "simple-icons:nestjs",
-        "Vue": "mdi:vuejs"
-      }
+      "skills": {}
     },
     {
       "name": "ISTES ICT Solutions S.r.l.",
@@ -130,25 +125,33 @@
       "url": "",
       "startDate": "2019-02-04",
       "endDate": "2023-10-31",
-      "summary": "Developing and deploying full stack web and windows desktop applications",
+      "summary": "Developing and deploying full stack SaaS B2B applications and windows desktop applications",
       "highlights": ["Enhanced internal workflow efficiency by 30%."],
       "responsibilities": [
-        "Developed and maintained backend services using Node.js and Golang."
+        "Full stack development of web applications using Angular, .NET and SQL Server Stack",
+        "Deployment of web applications on company owned servers (Windows Server 2019), Azure or on IIS on prem, depending on customer requests",
+        "Development of Windows Desktop applications and services in C#, VB .NET and VB6 (company legacy applications)",
+        "Conversion of customer requests into technical specifications and development of the requested features",
+        "Team management support for time and resources estimates for the development of projects features"
       ],
       "achievements": [
         "Implemented a cloud drive and verification code system."
       ],
       "skills": {
-        "PHP": "simple-icons:php",
-        "Node": "ri:nodejs-line",
-        "Golang": "simple-icons:go",
-        "Next.js": "ri:nextjs-fill",
-        "React": "mdi:react",
-        "SQL": "simple-icons:mysql",
-        "Git": "mdi:git",
-        "GitHub": "mdi:github",
-        "NestJS": "simple-icons:nestjs",
-        "Vue": "mdi:vuejs"
+        "Angular": "devicon:angular",
+        "Javascript": "devicon:javascript",
+        "TypeScript": "devicon:typescript",
+        "C#": "devicon:csharp",
+        ".NET": "devicon:dot-net",
+        "Swagger": "devicon:swagger",
+        "SignalR": "",
+        "VB6": "devicon:visualbasic",
+        "SQL Server": "devicon:microsoftsqlserver",
+        "SSRS": "",
+        "Windows Server": "devicon:windows11",
+        "Azure Dev-Ops": "devicon:azuredevops",
+        "Azure SQL": "devicon:azuresqldatabase",
+        "Trello": "devicon:trello"
       }
     }
   ],
@@ -359,11 +362,13 @@
   "languages": [
     {
       "language": "Italian",
+      "flag": "emojione-v1:flag-for-italy",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Advanced - B2/C1 written and spoken"
+      "flag": "emojione-v1:flag-for-united-kingdom",
+      "fluency": "Advanced - B2/C1"
     }
   ],
   "interests": [
@@ -372,5 +377,19 @@
       "keywords": ["AI", "Blockchain"]
     }
   ],
-  "projects": []
+  "projects": [
+    {
+      "name": "Lorem ipsum",
+      "image": {
+        "url": "https://media1.tenor.com/m/0mX52HNM8HwAAAAC/pepe-type.gif",
+        "position": "container",
+        "dark": "https://media1.tenor.com/m/0mX52HNM8HwAAAAC/pepe-type.gif"
+      },
+      "isActive": true,
+      "description": "lorem ipsum description",
+      "highlights": ["🚀 1st highlight", "✨ 2nd highlight"],
+      "url": "an url",
+      "github": "a github repo url"
+    }
+  ]
 }
