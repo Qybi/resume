@@ -3,6 +3,7 @@ import Section from "../Section.astro";
 
 import CV from "@cv";
 import Hobbies from "./Hobbies.astro";
+import Languages from "./Languages.astro";
 const { summary } = CV.basics;
 ---
 
@@ -10,5 +11,6 @@ const { summary } = CV.basics;
   <p class="font-mono opacity-75 print:font-sans">
     {summary}
   </p>
+  <Languages />
   <Hobbies />
 </Section>
