@@ -50,6 +50,7 @@ interface Work {
   endDate: DateStr | null;
   summary: string;
   highlights: Highlight;
+  skills: any;
 }
 
 type DateStr = `${string}-${string}-${string}`;
@@ -106,6 +107,7 @@ interface Education {
 
 interface Languages {
   language: Language;
+  flag: string;
   fluency: string;
 }
 
@@ -113,16 +115,12 @@ type Language =
   | "Spanish"
   | "English"
   | "German"
-  | "France"
+  | "French"
   | "Italian"
   | "Korean"
   | "Portuguese"
   | "Chinese"
-  | "Arabic"
-  | "Dutch"
-  | "Finnish"
   | "Russian"
-  | "Turkish"
   | string;
 
 interface Projects {
