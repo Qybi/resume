@@ -1,19 +1,21 @@
 ---
 import Section from '../Section.astro'
-import { work } from '@cv'
+import { work, skills } from '@cv'
 import { Icon } from 'astro-icon/components'
 
-const skills = work.reduce((acc, cur) => {
+let _skills = work.reduce((acc, cur) => {
   acc = Object.assign(acc, cur.skills)
   return acc
 }, {})
+
+_skills = Object.assign(_skills, skills.power)
 ---
 
-<Section className={Astro.props.className} title='Skills'>
+<Section className={Astro.props.className} title='Power skills'>
   <ul
     class='inline-flex print:mt-4 flex-wrap gap-4 [&>li>svg]:text-skin-hue [&>li]:text-sm'>
     {
-      Object.entries(skills).map(([name, icon]) => {
+      Object.entries(_skills).map(([name, icon]) => {
         return (
           <li class='flex items-center gap-1 rounded-md border border-solid border-skin-hue/20 bg-skin-button-accent/20 px-1 py-0.5 text-xs text-skin-hue print:border-none print:bg-transparent print:p-0 print:text-zinc-800'>
             {icon && <Icon name={icon} width={16} height={16} />}{' '}

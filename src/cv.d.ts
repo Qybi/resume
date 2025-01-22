@@ -135,4 +135,9 @@ interface Hobbies {
   icon: string;
 }
 
+interface Skills {
+  soft: any 
+  power: any
+}
+
 type Highlight = Array<String>;
