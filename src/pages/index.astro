@@ -8,7 +8,6 @@ import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Tail from "@/components/sections/Tail.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
-import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
 import CV, { basics } from "@cv";
 import Education from "@/components/sections/Education.astro";
@@ -22,7 +21,7 @@ enum PageLayout {
 }
 ---
 
-<Layout title={`${name}'s' Portfolio - ${label}`}>
+<Layout title={`${name.split(" ")[0]}'s Resume`}>
   <main
     class="relative grid h-full max-w-7xl gap-12 p-8 max-sm:py-16 md:min-h-screen md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6"
   >
