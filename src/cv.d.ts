@@ -136,8 +136,8 @@ interface Hobbies {
 }
 
 interface Skills {
-  soft: any 
   power: any
+  global: any 
 }
 
 type Highlight = Array<String>;
