@@ -7,7 +7,7 @@
     "email": "qybi.dev@gmail.com",
     "url": "https://www.qybi.dev",
     "dob": "26/01/1998",
-    "summary": "Description of myself // Add hobbies/interests section",
+    "summary": "Who am I",
     "hobbies": [
       {
         "name": "Reading books and comics",
@@ -113,7 +113,7 @@
       "responsibilities": [
         "Developed and maintained backend services using Ruby on Rails.",
         "Test writing using RSpec and RSwag (Rails implementation of Swagger) for API documentation.",
-        "Developed and maintained frontend designed using React and Antd components library.",
+        "Developed and maintained frontend using React and Antd components library.",
         "Maintained a NodeJS service for handling MQTT messages from IoT devices."
       ],
       "achievements": [
@@ -124,9 +124,9 @@
           ]
         },
         {
-          "title": "Implemented a new section in a company's application for handling distribution of products for remote coffee machines",
+          "title": "Implemented a new section in a company's application for handling distribution of products for remote machines",
           "subAchievements": [
-            "Developed hierarchy of customers and sub-customers for handling the distribution of products",
+            "Developed hierarchy of customers and sub-customers for handling the distribution of products, with different features depending on the \"level\"",
             "Developed a mobile version of the application dedicated to on-field operators for handling stocks loading"
           ]
         }
