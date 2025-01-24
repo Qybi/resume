@@ -53,6 +53,7 @@
     ]
   },
   "images": {
+    "enabled": false,
     "intro": "",
     "list": [
       {
@@ -107,15 +108,53 @@
       "url": "https://archeido.com/",
       "startDate": "2024-07-06",
       "endDate": null,
-      "summary": "Developing and deploying full stack web and windows desktop applications",
-      "highlights": ["Enhanced internal workflow efficiency by 30%."],
+      "summary": "Developed and deployed full stack SaaS B2B web applications",
+      "highlights": [],
       "responsibilities": [
-        "Developed and maintained backend services using Node.js and Golang."
+        "Developed and maintained backend services using Ruby on Rails.",
+        "Test writing using RSpec and RSwag (Rails implementation of Swagger) for API documentation.",
+        "Developed and maintained frontend designed using React and Antd components library.",
+        "Maintained a NodeJS service for handling MQTT messages from IoT devices."
       ],
       "achievements": [
-        "Implemented a cloud drive and verification code system."
+        {
+          "title": "Implemented a library (ancestry) for transforming a DB table with self-referencing key into a tree structure to optimize query performance instead of using recursion",
+          "subAchievements": [
+            "Creating the migration to switch from recursive queries to a tree structure and initialize the already existing data"
+          ]
+        },
+        {
+          "title": "Implemented a new section in a company's application for handling distribution of products for remote coffee machines",
+          "subAchievements": [
+            "Developed hierarchy of customers and sub-customers for handling the distribution of products",
+            "Developed a mobile version of the application dedicated to on-field operators for handling stocks loading"
+          ]
+        }
       ],
-      "skills": {}
+      "skills": {
+        "Ruby": "devicon:ruby",
+        "Rails": "devicon:rails-wordmark",
+        "Swagger": "devicon:swagger",
+        "RSpec": "devicon:rspec",
+        "HTML": "devicon:html5",
+        "CSS": "devicon:css3",
+        "JavaScript": "devicon:javascript",
+        "React": "devicon:react",
+        "Antd 4/5": "devicon:antdesign",
+        "NodeJS": "devicon:nodejs",
+        "AWS": "devicon:amazonwebservices-wordmark",
+        "Docker": "devicon:docker",
+        "PostgreSQL": "devicon:postgresql",
+        "MySQL": "devicon:mysql",
+        "MQTT": "",
+        "EMQX": "",
+        "RubyMine": "devicon:rubymine",
+        "VS Code": "devicon:vscode",
+        "DataGrip": "devicon:datagrip",
+        "Jira": "devicon:jira",
+        "Tempo": "",
+        "Slack": "devicon:slack"
+      }
     },
     {
       "name": "ISTES ICT Solutions S.r.l.",
@@ -125,8 +164,8 @@
       "url": "",
       "startDate": "2019-02-04",
       "endDate": "2023-10-31",
-      "summary": "Developing and deploying full stack SaaS B2B applications and windows desktop applications",
-      "highlights": ["Enhanced internal workflow efficiency by 30%."],
+      "summary": "Designed, Developed and deployed full stack SaaS B2B web applications and windows desktop applications mainly for the HoReCa domain",
+      "highlights": [],
       "responsibilities": [
         "Full stack development of web applications using Angular, .NET and SQL Server Stack",
         "Deployment of web applications on company owned servers (Windows Server 2019), Azure or on IIS on prem, depending on customer requests",
@@ -135,14 +174,49 @@
         "Team management support for time and resources estimates for the development of projects features"
       ],
       "achievements": [
-        "Implemented a cloud drive and verification code system."
+        {
+          "title": "Designed and developed from scratch a full hotel PMS application",
+          "subAchievements": [
+            "Booking handling, CMS, CRM",
+            "Room management and cleaning status",
+            "Digital invoicing serialization and automated billing on Fiscal RT Printers (as per Italian Law)",
+            "Multiple reports available both in excel and pdf format",
+            "24 hours check-in service connected to a 3rd party Totem",
+            "Restaurant management and kitchen orders handling",
+            "Integration with 3rd party services (e.g. Channel Managers. Revenue Management Systems)",
+            "Integration with the State Police portal for guest data and with regional statistic data aggregators (as per Italian Law)"
+          ]
+        },
+        {
+          "title": "Designed and developed a restaurant POS application for order handling, table management, kitchen orders, and billing",
+          "subAchievements": []
+        },
+        {
+          "title": "Custom query extraction for the customer's needs using TSQL Stored Procedures/functions and reports generation",
+          "subAchievements": []
+        },
+        {
+          "title": "Maintained a Property Management application for a Rental Agency",
+          "subAchievements": []
+        },
+        {
+          "title": "Maintained a Beach Management application for renting sunbeds and umbrellas",
+          "subAchievements": []
+        },
+        {
+          "title": "Maintained old legacy application in VB6",
+          "subAchievements": []
+        }
       ],
       "skills": {
-        "Angular": "devicon:angular",
-        "Javascript": "devicon:javascript",
-        "TypeScript": "devicon:typescript",
         "C#": "devicon:csharp",
         ".NET": "devicon:dot-net",
+        "Entity Framework": "",
+        "Angular": "devicon:angular",
+        "Boostrap": "devicon:bootstrap",
+        "Javascript": "devicon:javascript",
+        "TypeScript": "devicon:typescript",
+        "HTML": "devicon:html5",
         "Swagger": "devicon:swagger",
         "SignalR": "",
         "VB6": "devicon:visualbasic",
@@ -151,212 +225,17 @@
         "Windows Server": "devicon:windows11",
         "Azure Dev-Ops": "devicon:azuredevops",
         "Azure SQL": "devicon:azuresqldatabase",
+        "Visual Studio": "devicon:visualstudio",
+        "VS Code": "devicon:vscode",
+        "SSMS": "devicon:sqldeveloper",
         "Trello": "devicon:trello"
       }
     }
   ],
-  "skills": [
+  "interests": [
     {
-      "name": "HTML",
-      "icon": "simple-icons:html5",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend"]
-    },
-    {
-      "name": "CSS",
-      "icon": "ri:css3-fill",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Responsive Design"]
-    },
-    {
-      "name": "JavaScript",
-      "icon": "simple-icons:javascript",
-      "level": "Expert",
-      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
-    },
-    {
-      "name": "Tailwind",
-      "icon": "mdi:tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "icon": "simple-icons:typescript",
-      "level": "Expert",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "icon": "ri:nodejs-line",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
-    },
-    {
-      "name": "SQL",
-      "icon": "simple-icons:mysql",
-      "level": "Intermediate",
-      "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
-    },
-    {
-      "name": "MongoDB",
-      "icon": "simple-icons:mongodb",
-      "level": "Intermediate",
-      "keywords": ["Databases", "File", "Data Storage", "Backend"]
-    },
-    {
-      "name": "Git",
-      "icon": "mdi:git",
-      "level": "Intermediate",
-      "keywords": ["Version Control", "Collaboration", "Source Code"]
-    },
-    {
-      "name": "GitHub",
-      "icon": "mdi:github",
-      "level": "Expert",
-      "keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
-    },
-    {
-      "name": "Next.js",
-      "icon": "ri:nextjs-line",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "icon": "mdi:react",
-      "level": "Expert",
-      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
-    },
-    {
-      "name": "Vue",
-      "icon": "mdi:vuejs",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
-    },
-    {
-      "name": "Docker",
-      "icon": "mdi:docker",
-      "level": "Intermediate",
-      "keywords": ["Virtual Environments", "Backend"]
-    },
-    {
-      "name": "NestJS",
-      "icon": "simple-icons:nestjs",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Backend", "IOC"]
-    },
-    {
-      "name": "Vite",
-      "icon": "simple-icons:vite",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Build Tool"]
-    },
-    {
-      "name": "WordPress",
-      "icon": "ri:wordpress-fill",
-      "level": "Intermediate",
-      "keywords": ["PHP", "Fullstack", "Frontend"]
-    },
-    {
-      "name": "Golang",
-      "icon": "simple-icons:go",
-      "level": "Beginner",
-      "keywords": ["Backend", "Cloud Service"]
-    },
-    {
-      "name": "Astro",
-      "icon": "simple-icons:astro",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
-    },
-    {
-      "name": "PHP",
-      "icon": "simple-icons:php",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Backend", "Fullstack"]
-    },
-    {
-      "name": "Nginx",
-      "icon": "simple-icons:nginx",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Backend", "Web Server"]
-    },
-    {
-      "name": "Tauri",
-      "icon": "simple-icons:tauri",
-      "level": "Beginner",
-      "keywords": ["Desktop App", "Rust", "Webview"]
-    },
-    {
-      "name": "Rust",
-      "icon": "simple-icons:rust",
-      "level": "Beginner",
-      "keywords": ["Desktop App", "Webview"]
-    },
-    {
-      "name": "Socket.IO",
-      "icon": "simple-icons:socketdotio",
-      "level": "Beginner",
-      "keywords": ["Realtime", "Websocket"]
-    },
-    {
-      "name": "Electron",
-      "icon": "simple-icons:electron",
-      "level": "Beginner",
-      "keywords": ["Desktop App", "Webview"]
-    },
-    {
-      "name": "Shell",
-      "icon": "simple-icons:shell",
-      "level": "Intermediate",
-      "keywords": ["Scripting", "Automation"]
-    },
-    {
-      "name": "Linux",
-      "icon": "simple-icons:linux",
-      "level": "Intermediate",
-      "keywords": ["OS", "Scripting", "Automation"]
-    },
-    {
-      "name": "Vercel",
-      "icon": "simple-icons:vercel",
-      "level": "Intermediate",
-      "keywords": ["Serverless", "Static Site Hosting"]
-    },
-    {
-      "name": "Netlify",
-      "icon": "simple-icons:netlify",
-      "level": "Intermediate",
-      "keywords": ["Serverless", "Static Site Hosting"]
-    },
-    {
-      "name": "Tencent Cloud",
-      "icon": "simple-icons:tencentqq",
-      "level": "Intermediate",
-      "keywords": ["Cloud Service"]
-    },
-    {
-      "name": "Cloudflare Edge Functions",
-      "icon": "simple-icons:cloudflare",
-      "level": "Expert",
-      "keywords": ["Serverless", "Edge Computing"]
+      "name": "Technology",
+      "keywords": ["AI", "Blockchain"]
     }
   ],
   "languages": [
@@ -371,25 +250,27 @@
       "fluency": "Advanced - B2/C1"
     }
   ],
-  "interests": [
-    {
-      "name": "Technology",
-      "keywords": ["AI", "Blockchain"]
-    }
-  ],
   "projects": [
     {
-      "name": "Lorem ipsum",
+      "name": "-WIP- Iliad API (Scraper)",
       "image": {
         "url": "https://media1.tenor.com/m/0mX52HNM8HwAAAAC/pepe-type.gif",
         "position": "container",
         "dark": "https://media1.tenor.com/m/0mX52HNM8HwAAAAC/pepe-type.gif"
       },
       "isActive": true,
-      "description": "lorem ipsum description",
-      "highlights": ["🚀 1st highlight", "✨ 2nd highlight"],
-      "url": "an url",
-      "github": "a github repo url"
+      "description": "- WIP - A scraper for http requests in the Iliad website to retrieve information about the logged in user such as, current credit, data usage, etc.",
+      "highlights": ["💻 Built with Node.js", "🚀 Built using Fastify and Undici"],
+      "url": "",
+      "github": "no public repo yet"
     }
-  ]
+  ],
+  "skills": {
+    "power": {
+      "Communication": "mdi:forum",
+      "Teamwork": "mdi:account-group",
+      "Critical Thinking": "mdi:brain"
+    },
+    "global": {}
+  }
 }
