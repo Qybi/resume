@@ -51,6 +51,12 @@ interface Work {
   summary: string;
   highlights: Highlight;
   skills: any;
+  achievements: Achievement[];
+}
+
+interface Achievement {
+  title: string;
+  subAchievements: Array<string>;
 }
 
 type DateStr = `${string}-${string}-${string}`;
