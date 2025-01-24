@@ -72,9 +72,15 @@ import { Icon } from 'astro-icon/components'
                     {achievements && (
                       <div class="flex flex-col gap-1">
                         <h4>Achievements:</h4>
-                        <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
-                          {achievements.map(achievement => (
-                            <li>{achievement}</li>
+                        <ul class="text-skin-muted [&>li]:ml-5 flex list-disc flex-col gap-2">
+                          {achievements.map(({title, subAchievements}) => (
+                            <li>{title}
+                              <ul class="print:hidden text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
+                                {subAchievements.map(subAchievement => (
+                                  <li>{subAchievement}</li>
+                                ))}
+                              </ul>
+                            </li>
                           ))}
                         </ul>
                       </div>
