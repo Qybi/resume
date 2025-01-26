@@ -3,11 +3,11 @@
   "basics": {
     "name": "Raffaele Trivillin",
     "label": "Full Stack Developer",
-    "image": "/avatar_test.png",
+    "image": "/avatar.jpg",
     "email": "qybi.dev@gmail.com",
     "url": "https://www.qybi.dev",
     "dob": "26/01/1998",
-    "summary": "Who am I",
+    "summary": "I am a software developer currently enrolled in a Cloud Developer ITS course with a few years of experience. I am a calm and very curious person, that puts in work to achieve the best results on its own or in a team. I always am observing things to learn something new and improve. I am very passionate about sports cars, comics/mangas and videogames.",
     "hobbies": [
       {
         "name": "Reading books and comics",
