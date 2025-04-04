@@ -260,12 +260,21 @@
         "⚡ Built with Electron",
         "🖥️ Built using React and Antd"
       ],
+      "image": {
+        "url": "",
+        "position": "container",
+        "dark": ""
+      },
       "url": "https://github.com/Qybi/electron-resource-manager",
       "github": "https://github.com/Qybi/electron-resource-manager"
     },
     {
       "name": "Custom dotnet Microservice prep exam",
-      
+      "image": {
+        "url": "",
+        "position": "container",
+        "dark": ""
+      },
       "isActive": true,
       "description": "A level'd up version of the prep exam for the Azure microservice ITS course. Details are in the README of the project.",
       "highlights": [

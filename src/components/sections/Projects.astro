@@ -10,9 +10,9 @@ import { Image } from "astro:assets";
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github/*, image */ }) => {
-          const isBackgroundImage = image && image?.position === "background";
-          const isContainerImage = image && image?.position === "container";
+        ({ url, description, highlights, name, isActive, github, image }) => {
+          const isBackgroundImage = image && image.url && image?.position === "background";
+          const isContainerImage = image && image.url && image?.position === "container";
           return (
             <div
               role="contentinfo"
