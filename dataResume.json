@@ -7,7 +7,7 @@
     "email": "qybi.dev@gmail.com",
     "url": "https://www.qybi.dev",
     "dob": "26/01/1998",
-    "summary": "I am a software developer currently enrolled in a Cloud Developer ITS course with a few years of experience. I am a calm and very curious person, that puts in work to achieve the best results on its own or in a team. I always am observing things to learn something new and improve. I am very passionate about sports cars, comics/mangas and videogames.",
+    "summary": "I am a software developer with a few years of experience currently enrolled in a Higher Cloud Developer ITS course. I would describe myself as a calm and very curious person, that puts in work to achieve the best results on its own or in a team. I am always observing things around me to learn something new and improve. I am very passionate about sports cars, comics/mangas and videogames.",
     "hobbies": [
       {
         "name": "Reading books and comics",
@@ -252,17 +252,28 @@
   ],
   "projects": [
     {
-      "name": "-WIP- Iliad API (Scraper)",
-      "image": {
-        "url": "https://media1.tenor.com/m/0mX52HNM8HwAAAAC/pepe-type.gif",
-        "position": "container",
-        "dark": "https://media1.tenor.com/m/0mX52HNM8HwAAAAC/pepe-type.gif"
-      },
+      "name": "Electron Resource Monitor",
+      
       "isActive": true,
-      "description": "- WIP - A scraper for http requests in the Iliad website to retrieve information about the logged in user such as, current credit, data usage, etc.",
-      "highlights": ["💻 Built with Node.js", "🚀 Built using Fastify and Undici"],
-      "url": "",
-      "github": "no public repo yet"
+      "description": "A simple Electron application that monitors the system resources and displays them in a simple UI. A project to learn Electron and how it works.",
+      "highlights": [
+        "⚡ Built with Electron",
+        "🖥️ Built using React and Antd"
+      ],
+      "url": "https://github.com/Qybi/electron-resource-manager",
+      "github": "https://github.com/Qybi/electron-resource-manager"
+    },
+    {
+      "name": "Custom dotnet Microservice prep exam",
+      
+      "isActive": true,
+      "description": "A level'd up version of the prep exam for the Azure microservice ITS course. Details are in the README of the project.",
+      "highlights": [
+        "🖥️ Built with .NET 9",
+        "EF Core, AzureSQL, Azure functions, Worker service"
+      ],
+      "url": "https://github.com/Qybi/Azure-ITS-PreExam",
+      "github": "https://github.com/Qybi/Azure-ITS-PreExam"
     }
   ],
   "skills": {
