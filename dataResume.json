@@ -7,14 +7,14 @@
     "email": "qybi.dev@gmail.com",
     "url": "https://www.qybi.dev",
     "dob": "26/01/1998",
-    "summary": "I am a software developer with a few years of experience currently enrolled in a Higher Cloud Developer ITS course. I would describe myself as a calm and very curious person, that puts in work to achieve the best results on its own or in a team. I am always observing things around me to learn something new and improve. I am very passionate about sports cars, comics/mangas and videogames.",
+    "summary": "Full-stack software developer with 5-6 years of experience, currently completing a `Cloud Developer` course through ITS Alto Adriatico. I have built multiple web applications across different domains and tech stacks. I am eager to contribute to and learn from a company working on large-scale enterprise applications. I define myself as a calm and curious person committed to always deliver the best quality results, whether independently or in a team.",
     "hobbies": [
       {
         "name": "Reading books and comics",
         "icon": "maki:library"
       },
       {
-        "name": "Racing",
+        "name": "Motorsport",
         "icon": "maki:racetrack"
       },
       {
@@ -57,28 +57,18 @@
     "intro": "",
     "list": [
       {
-        "image": "https://preview.redd.it/the-virgin-goku-vs-the-chad-sun-wukong-v0-ie9v68i68crc1.png?width=788&format=png&auto=webp&s=69702b8de490c538443a97ed84196b3de43f6ba2",
-        "alt": "EHm Akshually",
-        "desc": "EHm Akshually"
-      },
-      {
         "image": "https://i1.sndcdn.com/artworks-d0RbKpbNcrAlMAnn-tcTSCw-t500x500.jpg",
         "alt": "yep",
         "desc": "yep"
-      },
-      {
-        "image": "https://media.tenor.com/Oas_7V6NajEAAAAC/laugh-point.gif",
-        "alt": "Cat lmao",
-        "desc": "Cat lmao"
       }
     ]
   },
   "education": [
     {
-      "institution": "ITS Alto Adriatico Foundation",
+      "institution": "ITS Alto Adriatico Academy",
       "url": "https://www.itsaltoadriatico.it/",
       "area": "Cloud Developer ITS Diploma - EQF 6",
-      "studyType": "Full-time student > intern",
+      "studyType": "Full-time student and contracted developer",
       "startDate": "2023-10-15",
       "endDate": "2025-07-30"
     },
@@ -108,19 +98,23 @@
       "url": "https://archeido.com/",
       "startDate": "2024-06-10",
       "endDate": null,
-      "summary": "Developed and deployed full stack SaaS B2B web applications",
-      "highlights": [],
+      "summary": "Developed features, tested and refactored full stack SaaS B2B web applications",
+      "highlights": [
+        "Developed and maintained backend services using Ruby on Rails and NodeJS;",
+        "Test writing using RSpec and RSwag for API documentation;",
+        "Developed and maintained frontend using React and Antd components library;",
+        "Developed features for a mobile application using React Native;",
+        "Developed and maintained a microservice for handling MQTT messages to and from and EMQX broker using NodeJS;"
+      ],
       "responsibilities": [
-        "Developed and maintained backend services using Ruby on Rails.",
-        "Test writing using RSpec and RSwag (Rails implementation of Swagger) for API documentation.",
-        "Developed and maintained frontend using React and Antd components library.",
-        "Maintained a NodeJS service for handling MQTT messages from IoT devices."
+        "Given full ownership for the development of the 2 long-term projects I worked on.",
+        "Tasked to study and developed a cross-platform Electron application and analazying the feasibility of upgrading firmware on a famous brand of helmet intercoms."
       ],
       "achievements": [
         {
-          "title": "Implemented a library (ancestry) for transforming a DB table with self-referencing key into a tree structure to optimize query performance instead of using recursion",
+          "title": "Solved a core N+1 query performance issue using a tree structure for self referential table",
           "subAchievements": [
-            "Creating the migration to switch from recursive queries to a tree structure and initialize the already existing data"
+            "Created a migration port all the existing data to the new structure"
           ]
         },
         {
@@ -142,6 +136,7 @@
         "React": "devicon:react",
         "Antd 4/5": "devicon:antdesign",
         "NodeJS": "devicon:nodejs",
+        "Electron": "devicon:electron",
         "AWS": "devicon:amazonwebservices-wordmark",
         "Docker": "devicon:docker",
         "PostgreSQL": "devicon:postgresql",
@@ -167,7 +162,7 @@
       "summary": "Designed, Developed and deployed full stack SaaS B2B web applications and windows desktop applications mainly for the HoReCa domain",
       "highlights": [],
       "responsibilities": [
-        "Full stack development of web applications using Angular, .NET and SQL Server Stack",
+        "Full stack development of web applications using Angular - .NET - SQL Server Stack",
         "Deployment of web applications on company owned servers (Windows Server 2019), Azure or on IIS on prem, depending on customer requests",
         "Development of Windows Desktop applications and services in C#, VB .NET and VB6 (company legacy applications)",
         "Conversion of customer requests into technical specifications and development of the requested features",
@@ -247,13 +242,12 @@
     {
       "language": "English",
       "flag": "emojione-v1:flag-for-united-kingdom",
-      "fluency": "Advanced - B2/C1"
+      "fluency": "Proficient - B2/C1"
     }
   ],
   "projects": [
     {
       "name": "Electron Resource Monitor",
-      
       "isActive": true,
       "description": "A simple Electron application that monitors the system resources and displays them in a simple UI. A project to learn Electron and how it works.",
       "highlights": [
@@ -269,7 +263,7 @@
       "github": "https://github.com/Qybi/electron-resource-manager"
     },
     {
-      "name": "Custom dotnet Microservice prep exam",
+      "name": "Azure Microservices exam",
       "image": {
         "url": "",
         "position": "container",
@@ -279,7 +273,7 @@
       "description": "A level'd up version of the prep exam for the Azure microservice ITS course. Details are in the README of the project.",
       "highlights": [
         "🖥️ Built with .NET 9",
-        "EF Core, AzureSQL, Azure functions, Worker service"
+        "🔧 EF Core, AzureSQL, Azure functions, Worker service"
       ],
       "url": "https://github.com/Qybi/Azure-ITS-PreExam",
       "github": "https://github.com/Qybi/Azure-ITS-PreExam"
@@ -289,7 +283,9 @@
     "power": {
       "Communication": "mdi:forum",
       "Teamwork": "mdi:account-group",
-      "Critical Thinking": "mdi:brain"
+      "Critical Thinking": "mdi:brain",
+      "Adaptability": "mdi:refresh",
+      "Composure": "material-symbols:self-improvement-rounded"
     },
     "global": {}
   }
