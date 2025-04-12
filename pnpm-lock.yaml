@@ -26,6 +26,9 @@ importers:
       '@iconify-json/maki':
         specifier: ^1.2.3
         version: 1.2.3
+      '@iconify-json/material-symbols':
+        specifier: ^1.2.19
+        version: 1.2.19
       '@iconify-json/mdi':
         specifier: ^1.2.0
         version: 1.2.0
@@ -388,6 +391,9 @@ packages:
 
   '@iconify-json/maki@1.2.3':
     resolution: {integrity: sha512-u23VP2DbV7+vxbjkBboz7FBqQM1iK+IYRyMLbfLLUkrCwdyNWbqnoHCNimRXGd99IdEZeNgtiXLvWkc/fPhuUQ==}
+
+  '@iconify-json/material-symbols@1.2.19':
+    resolution: {integrity: sha512-GpAfK2XabulPR6Q8NTMDhuLX/PcBEjOmhgKDA1sK59hrrztqm3rPi5Dq4Md01z+j3lVrOa2l7hxgNX1LWKzHVg==}
 
   '@iconify-json/mdi@1.2.0':
     resolution: {integrity: sha512-E9/3l5Syg3wfuarorFodhn4s8YorxhH3U3U20LaNBNiqw1kFNIDWhF6HymuzAD35k7RH0OBasJ+ZUyFtVVV6eg==}
@@ -3132,6 +3138,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/maki@1.2.3':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/material-symbols@1.2.19':
     dependencies:
       '@iconify/types': 2.0.0
 

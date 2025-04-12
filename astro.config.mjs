@@ -17,6 +17,7 @@ export default defineConfig({
         maki: ["library", "racetrack", "car", "gaming"],
         "emojione-v1": ["*"],
         ph: ["headphones-fill"],
+        "material-symbols": ["self-improvement-rounded"],
       },
     }),
     playformCompress({
